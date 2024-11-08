@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap exercise2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-sm bg-light">
+        <div class="container-fluid ">
+          <a class="navbar-brand" href="javascript:void(0)"><img src="Assets/4170940.jpg" alt="logo picture"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#weekdeal">This week's deal </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#welcomeSummer">Welcome summer</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#todaysDeals">Today's offer</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#lastMinute">Last minute</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#testimonials">Testimonial</a>
+              </li>
+                          </ul>
+            <form class="d-flex"><button id="removeTripsButton"; class="btn removeTripsButton btn-secondary me-2" type="button"> Remove all trips</button>
+          
+              <button id="countTripButton"; class="btn btn-secondary" type="button"> Count trips</button>
+              <input class="form-control me-2" type="text" placeholder="I want to travel to...">
+              <button class="btn btn-secondary" type="button">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+      <div class="jumbotron mt-4 p-5  text-dark rounded ">
+        <h1>The Seashell Travel Agency</h1>
+        <p>Embrace your wanderlust</p>
+      </div>
+
+      <h3 class=" mt-2" id="weekdeal">This week's deal </h3>  
+      <button type="button" class="btn btn-light" data-bs-toggle="collapse" data-bs-target="#collapseThisweeksdeal">Open/Close</button>
+      <div id="collapseThisweeksdeal" class="collapse">
+
+<div class="row mt-4 mb-4 gx-3 gy-2"> 
+
+              <div class="card trip mb-4 col-6 col-sm-6 col-md-4 col-lg-3" > 
+            <img class="card-img-top" src="Assets/beach-with-water-without-waves.jpg" alt="Picture of Hawaii beach">
+            <div class="card-body"> 
+              <h4 class="card-title">Well deserved relax at Hawaii </h4>
+              <p class="card-text"> </p>
+              <a href="#" class="btn btn-light">Book now</a>
+            </div>             </div>
+
+
+            <div class="card trip mb-4 col-6 col-sm-6 col-md-4 col-lg-3" >
+              <img class="card-img-top" src="Assets/beautiful-view-cliffs-moher-ireland-gloomy-day.jpg" alt="Picture of Ireland cliffs">
+                <div class="card-body">
+                  <h4 class="card-title">Green Ireland</h4>
+                  <p class="card-text"></p>
+                  <a href="#" class="btn btn-light">Book now</a>
+                </div>            </div>
+
+
+
+                <div class="card trip mb-4 col-6 col-sm-6 col-md-4 col-lg-3" >
+                  <img class="card-img-top" src="Assets/architecture-unidentified-tourists.jpg" alt="Picture of DisneyLand park">
+                    <div class="card-body">
+                      <h4 class="card-title">Some fun at Disney Land</h4>
+                      <p class="card-text"></p>
+                      <a href="#" class="btn btn-light">Book now</a>
+                    </div>            </div>
+
+
+
+                    <div class="card trip mb-4 col-6 col-sm-6 col-md-4 col-lg-3" >
+                      <img class="card-img-top" src="Assets/gullfoss-waterfall-famous-landmark-iceland.jpg" alt="Picture of Iceland">
+                        <div class="card-body">
+                          <h4 class="card-title">Marvelous Iceland </h4>
+                          <p class="card-text"></p>
+                          <a href="#" class="btn btn-light">Book now</a>
+                        </div>            </div>
+
+
+                        <div class="card trip mb-4 col-6 col-sm-6 col-md-4 col-lg-3" >
+                          <img class="card-img-top" src="Assets/beach-with-water-without-waves.jpg" alt="Picture of Hawaii beach">
+                          <div class="card-body"> 
+                            <h4 class="card-title">Well deserved relax at Hawaii </h4>
+                            <p class="card-text"> </p>
+                            <a href="#" class="btn btn-light">Book now</a>
+                          </div>             </div>
+
+
+                          <div class="card trip mb-4 col-6 col-sm-6 col-md-4 col-lg-3" >
+                            <img class="card-img-top" src="Assets/beautiful-view-cliffs-moher-ireland-gloomy-day.jpg" alt="Picture of Ireland cliffs">
+                          <div class="card-body">
+                            <h4 class="card-title">Green Ireland</h4>
+                            <p class="card-text"></p>
+                            <a href="#" class="btn btn-light">Book now</a>
+                          </div>            </div>
+          
+</div>
+</div>
+</div>
+
+
+
+
+<div id="welcomeSummer" > <h3> Welcome Summer </h3> 
+  <button type="button" class="btn btn-light" data-bs-toggle="collapse" data-bs-target="#collapseWelcomeSummer">Open/Close</button>
+  <div id="collapseWelcomeSummer" class="collapse">
+  <div class="row mb-4 gx-3 gy-2">
+
+    <div class="card trip shadow col-lg-2 col-md-4 col-sm-6 col-6">
+      <img class="card-img-top" src="Assets/beautiful-view-cliffs-moher-ireland-gloomy-day.jpg" alt="Picture of Ireland cliffs">
+      <div class="card-body card-img-overlay">
+        <h4 class="card-title">Ireland</h4>
+        <p class="card-text"></p>
+        <a href="#" class="btn btn-light offset-7 mt-5">Book now</a>
+      </div>            </div>
+
+    <div class="card trip shadow col-lg-2 col-md-4 col-sm-6 col-6" >
+      <img class="card-img-top" src="Assets/gullfoss-waterfall-famous-landmark-iceland.jpg" alt="Picture of Iceland waterfall">
+      <div class="card-body card-img-overlay">
+        <h4 class="card-title">Iceland</h4>
+        <p class="card-text"></p>
+        <a href="#" class="btn btn-light offset-7 mt-5">Book now</a>
+      </div>            </div>
+
+
+
+
+      <div class="card trip shadow col-lg-2 col-md-4 col-sm-6 col-6" >
+        <img class="card-img-top" src="Assets/beach-with-water-without-waves.jpg" alt="Picture of Hawaii beach">
+        <div class="card-body card-img-overlay">
+          <h4 class="card-title">Hawaii</h4>
+          <p class="card-text"></p>
+          <a href="#" class="btn btn-light offset-7 mt-5">Book now</a>
+        </div>            </div>
+
+        <div class="card trip shadow col-lg-2 col-md-4 col-sm-6 col-6" >
+          <img class="card-img-top" src="Assets/beautiful-view-cliffs-moher-ireland-gloomy-day.jpg" alt="Picture of Ireland cliffs">
+          <div class="card-body card-img-overlay">
+            <h4 class="card-title">Ireland</h4>
+            <p class="card-text"></p>
+            <a href="#" class="btn btn-light offset-7 mt-5">Book now</a>
+          </div>            </div>
+    
+    
+    
+        <div class="card trip shadow col-lg-2 col-md-4 col-sm-6 col-6" >
+          <img class="card-img-top" src="Assets/gullfoss-waterfall-famous-landmark-iceland.jpg" alt="Picture of Iceland waterfall">
+          <div class="card-body card-img-overlay">
+            <h4 class="card-title">Iceland</h4>
+            <p class="card-text"></p>
+            <a href="#" class="btn btn-light offset-7 mt-5">Book now</a>
+          </div>            </div>
+    
+    
+    
+    
+          <div class="card trip shadow col-lg-2 col-md-4 col-sm-6 col-6" >
+            <img class="card-img-top" src="Assets/beach-with-water-without-waves.jpg" alt="Picture of Hawaii beach">
+            <div class="card-body card-img-overlay">
+              <h4 class="card-title">Hawaii</h4>
+              <p class="card-text"></p>
+              <a href="#" class="btn btn-light offset-7 mt-5">Book now</a>
+            </div>            </div>
+
+            <div class="card trip shadow col-lg-2 col-md-4 col-sm-6 col-6" >
+              <img class="card-img-top" src="Assets/beautiful-view-cliffs-moher-ireland-gloomy-day.jpg" alt="Picture of Ireland cliffs">
+              <div class="card-body card-img-overlay">
+                <h4 class="card-title">Ireland</h4>
+                <p class="card-text"></p>
+                <a href="#" class="btn btn-light offset-7 mt-5">Book now</a>
+              </div>            </div>
+        
+        
+        
+            <div class="card trip shadow col-lg-2 col-md-4 col-sm-6 col-6" >
+              <img class="card-img-top" src="Assets/gullfoss-waterfall-famous-landmark-iceland.jpg" alt="Picture of Iceland waterfall">
+              <div class="card-body card-img-overlay">
+                <h4 class="card-title">Iceland</h4>
+                <p class="card-text"></p>
+                <a href="#" class="btn btn-light offset-7 mt-5">Book now</a>
+              </div>            </div>
+        
+               
+        
+              <div class="card trip shadow col-lg-2 col-md-4 col-sm-6 col-6" >
+                <img class="card-img-top" src="Assets/beach-with-water-without-waves.jpg" alt="Picture of Hawaii beach">
+                <div class="card-body card-img-overlay">
+                  <h4 class="card-title">Hawaii</h4>
+                  <p class="card-text"></p>
+                  <a href="#" class="btn btn-light offset-7 mt-5">Book now</a>
+                </div>            </div>
+
+
+                <div class="card trip shadow col-lg-2 col-md-4 col-sm-6 col-6" >
+                  <img class="card-img-top" src="Assets/beautiful-view-cliffs-moher-ireland-gloomy-day.jpg" alt="Picture of Ireland cliffs">
+                  <div class="card-body card-img-overlay">
+                    <h4 class="card-title">Ireland</h4>
+                    <p class="card-text"></p>
+                    <a href="#" class="btn btn-light offset-7 mt-5">Book now</a>
+                  </div>            </div>
+            
+            
+            
+                <div class="card trip shadow col-lg-2 col-md-4 col-sm-6 col-6" >
+                  <img class="card-img-top" src="Assets/gullfoss-waterfall-famous-landmark-iceland.jpg" alt="Picture of Iceland waterfall">
+                  <div class="card-body card-img-overlay">
+                    <h4 class="card-title">Iceland</h4>
+                    <p class="card-text"></p>
+                    <a href="#" class="btn btn-light offset-7 mt-5">Book now</a>
+                  </div>            </div>
+            
+            
+            
+            
+                  <div class="card trip shadow col-lg-2 col-md-4 col-sm-6 col-6" >
+                    <img class="card-img-top" src="Assets/beach-with-water-without-waves.jpg" alt="Picture of Hawaii beach">
+                    <div class="card-body card-img-overlay">
+                      <h4 class="card-title">Hawaii</h4>
+                      <p class="card-text"></p>
+                      <a href="#" class="btn btn-light offset-7 mt-5">Book now</a>
+                    </div>            </div>
+
+  </div>
+
+</div>
+</div>
+
+
+<h3>Today's deal</h3> 
+<button type="button" class="btn btn-light" data-bs-toggle="collapse" data-bs-target="#collapseTodaysdeal">Open/Close</button>
+  <div id="collapseTodaysdeal" class="collapse">
+
+<div class="row offset-1 d-flex flex-wrap" id="todaysDeals">  
+  <div class="trip col-lg-4 col-sm-12"> <strong> <h4> DisneyLand Paris </h4> </strong> <br> 
+    
+    <p class="mb-3"> 600€ pp - From the 1st of December2024 to the 5th December 2024 </p> 
+     <br> 
+     
+     <p class="mb-2"> <strong>  What's included? </strong> When you book a Hotel + Tickets package with Disneyland Paris, enjoy unlimited access to both Disney Parks every day of your visit. A Disney-themed Hotel close to the Disney Parks. Extra Magic Time: enter the Disney Parks before they open. Enjoy Hotel-exclusive Character Encounters! </p> 
+    
+    <p class="mb-2"> <strong> Customise your package with magical extras </strong> Add an extra sprinkle of pixie dust to your stay at any time, whether it's during or after your booking, and enjoy a truly unforgettable trip to Disneyland Paris!  </p>
+
+
+
+     <p class="mb-2"><strong> Our Meal Plans </strong> Simplify your mealtimes by booking a Meal Plan in advance, and savour every moment of your stay! </p> 
+     
+     <p class="mb-2"><strong> Celebrating a birthday?</strong> Birthdays, anniversaries, graduations... all special occasions deserve a Mickey Mouse cake to celebrate in style! </p>
+
+     <p class="mb-2"> <strong>Shows: guaranteed access </strong> Be sure not to miss our Broadway-style stage shows, buy guaranteed access* in advance! 
+
+     <p class="mb-2"> <strong> Luggage made simple</strong> Leave your luggage with us, pick up your Park Tickets and get your day started faster thanks to Disney Express! </p>
+    
+    </div>
+  <div class="col-lg-8 mb-4 col-sm-12"> <img class="img-fluid rounded-3" src="Assets/architecture-unidentified-tourists.jpg" alt="location picture"></div>
+</div>  
+</div>
+</div>
+
+
+
+<h3>Our last minute trips</h3> 
+<button type="button" class="btn btn-light" data-bs-toggle="collapse" data-bs-target="#collapseLastMinute">Open/Close</button>
+  <div id="collapseLastMinute" class="collapse">
+<div id="lastMinute" class="row mt-4 mb-4 gx-3 gy-2"> 
+
+
+    <div class="card trip mb-4 col-6 col-sm-6 col-md-4 col-lg-3" >
+    <img class="card-img-top" src="Assets/beach-with-water-without-waves.jpg" alt="Picture of Hawaii beach">
+    <div class="card-body"> 
+      <h4 class="card-title">Well deserved relax at Hawaii </h4>
+      <p class="card-text"> </p>
+      <a href="#" class="btn btn-light">Book now</a>
+    </div>             </div>
+
+
+    <div class="card trip mb-4 col-6 col-sm-6 col-md-4 col-lg-3" >
+      <img class="card-img-top" src="Assets/beautiful-view-cliffs-moher-ireland-gloomy-day.jpg" alt="Picture of Ireland cliffs">
+        <div class="card-body">
+          <h4 class="card-title">Green Ireland</h4>
+          <p class="card-text"></p>
+          <a href="#" class="btn btn-light">Book now</a>
+        </div>            </div>
+
+
+
+        <div class="card trip mb-4 col-6 col-sm-6 col-md-4 col-lg-3" >
+          <img class="card-img-top" src="Assets/architecture-unidentified-tourists.jpg" alt="Picture of DisneyLand park">
+            <div class="card-body">
+              <h4 class="card-title">Some fun at Disney Land</h4>
+              <p class="card-text"></p>
+              <a href="#" class="btn btn-light">Book now</a>
+            </div>            </div>
+
+
+
+            <div class="card trip mb-4 col-6 col-sm-6 col-md-4 col-lg-3" >
+              <img class="card-img-top" src="Assets/gullfoss-waterfall-famous-landmark-iceland.jpg" alt="Picture of Iceland">
+                <div class="card-body">
+                  <h4 class="card-title">Marvelous Iceland </h4>
+                  <p class="card-text"></p>
+                  <a href="#" class="btn btn-light">Book now</a>
+                </div>            </div>
+
+
+                <div class="card trip mb-4 col-6 col-sm-6 col-md-4 col-lg-3" >
+                  <img class="card-img-top" src="Assets/beach-with-water-without-waves.jpg" alt="Picture of Hawaii beach">
+                  <div class="card-body"> 
+                    <h4 class="card-title">Well deserved relax at Hawaii </h4>
+                    <p class="card-text"> </p>
+                    <a href="#" class="btn btn-light">Book now</a>
+                  </div>             </div>
+
+
+                  <div class="card trip mb-4 col-6 col-sm-6 col-md-4 col-lg-3" >
+                    <img class="card-img-top" src="Assets/beautiful-view-cliffs-moher-ireland-gloomy-day.jpg" alt="Picture of Ireland cliffs">
+                  <div class="card-body">
+                    <h4 class="card-title">Green Ireland</h4>
+                    <p class="card-text"></p>
+                    <a href="#" class="btn btn-light">Book now</a>
+                  </div>            </div>
+  
+
+</div>
+</div>
+
+<h3 id="testimonials">What our clients say about us...</h3>
+<button type="button" class="btn btn-light" data-bs-toggle="collapse" data-bs-target="#collapseTestimonials">Open/Close</button>
+  <div id="collapseTestimonials" class="collapse">
+
+      <div class="row mt-4 mb-4">
+        
+
+<div class="px-4 mb-4 col-5 col-sm-5 col-md-3 col-lg-2"> <span class="text-primary"> Anny J </span> <br>
+Amazing experience with this agency. Always available whenever I needed help before and during my trip. I would definitely request their service again in the future. 5 stars!!! </div>
+
+<div class="px-4 col-5 mb-4 col-sm-5 col-md-3 col-lg-2"> <span class="text-primary"> Mark Jhonson </span>  <br>Amazing experience with this agency. Always available whenever I needed help before and during my trip. I would definitely request their service again in the future. 5 stars!!!</div>
+
+<div class="px-4 mb-4 col-5 col-sm-5 col-md-3 col-lg-2"> <span class="text-primary"> Harry White </span> <br>Amazing experience with this agency. Always available whenever I needed help before and during my trip. I would definitely request their service again in the future. 5 stars!!!</div>
+
+<div class="px-4 col-5 mb-4 col-sm-5 col-md-3 col-lg-2"> <span class="text-primary"> Robert Burger </span> <br>Amazing experience with this agency. Always available whenever I needed help before and during my trip. I would definitely request their service again in the future. 5 stars!!!</div>
+
+<div class="px-4 col-5 mb-4 col-sm-5 col-md-3 col-lg-2"> <span class="text-primary"> Mark Jhonson </span>  <br>Amazing experience with this agency. Always available whenever I needed help before and during my trip. I would definitely request their service again in the future. 5 stars!!!</div>
+
+<div class="px-4 col-5 mb-4 col-sm-5 col-md-3 col-lg-2"> <span class="text-primary"> Mark Jhonson </span>  <br>Amazing experience with this agency. Always available whenever I needed help before and during my trip. I would definitely request their service again in the future. 5 stars!!!</div>
+  </div>
+</div>
+
+
+
+      <footer class="bg-dark text-white pt-4">
+        <div class="container">
+          <div class="row">
+      
+            <div class="col-md-4">
+              <p>The Seashell Travel Agency, 52nd Str., New york (NY), 123456</p>
+            </div>
+      
+            <div class="col-md-4">
+              <ul class="list-unstyled">
+                <div class="container text-center mt-5">
+                    <button class="btn btn-success btn-sm btn-md btn-lg" data-bs-toggle="modal" data-bs-target="#myModal">Click here to get in touch with us today</button>
+                  </div>
+
+                  <div class="modal fade" id="myModal">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                  
+                        <div class="modal-header">
+                          <h4 class="modal-title">  </h4>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                  
+                        <div class="modal-body text-dark"> Share your contact email address below and one of our agents will be happy to get back to you ASAP. <br>
+<input type="email" class="w-50 " placeholder="Insert your email address here...">                        </div>
+                  
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                        </div>
+                  
+                      </div>
+                    </div>
+                  </div>
+                  
+
+                  
+              </ul>
+            </div>
+      
+            <div class="col-md-4">
+              <h5>Contact</h5>
+              <ul class="list-unstyled">
+                <li><a href="tel:+1234567890" class="text-white">+1 123 456 7890</a></li>
+                <li><a href="mailto:info@example.com" class="text-white">info@test.com</a></li>
+                <li>25th Street, NY City, Test</li>
+              </ul>
+            </div>
+      
+      
+          <div class="text-center py-3">
+            <p class="mb-0">&copy; 2023 Your Company. All Rights Reserved.</p>
+          </div>
+        </div>
+
+      </footer>
+      
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
